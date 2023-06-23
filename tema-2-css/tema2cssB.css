@@ -1,0 +1,44 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 7px dotted rgba(166, 124, 124, 1);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.child1 {
+    border-style: dotted;
+    border-color:#a760c4;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    position: absolute;
+    top:10px;
+}
+.child3 {
+  
+    border-style: dotted;
+    border-color:#a760c4;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #3B6C3E;
+    position: absolute;
+    top: 45px;
+    left: 340px;
+}
+.child2 {
+    border-style: dotted;
+    border-color: #a760c4;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: lightpink;
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    z-index: 1;
+}

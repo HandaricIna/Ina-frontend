@@ -1,0 +1,41 @@
+.flex-container {
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+}
+.flex2 {
+    display: flex;
+    flex-grow: 1;
+}
+#header  {
+    background-color: salmon;
+    flex-direction: row;
+    text-align: center;
+}
+#aside1 {
+    background-color: yellow;
+    width: 160px;
+    height: 130px;
+    text-align: center;
+}
+#lorem {
+    background-color: blue;
+    flex-grow: 1;
+    text-align: center;
+}
+#aside2 {
+    background-color: yellow;
+    width: 160px;
+    height: 130px;
+    text-align: center;
+}
+#header  {
+    background-color: salmon;
+    flex-direction: row;
+    text-align: center;
+}
+#footer  {
+    background-color: green;
+    flex-direction: row;
+    text-align: center;
+}
