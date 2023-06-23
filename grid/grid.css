@@ -1,0 +1,10 @@
+.div {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    border: 5px solid black;
+}
+.a {
+    grid-column: 1 / 2;
+    border: 5px solid black;
+}

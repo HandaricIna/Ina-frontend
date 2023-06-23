@@ -1,0 +1,10 @@
+[class="red"] {
+    color: red;
+}
+[type="text"] {
+    color: blue;
+}
+
+a:visited{
+    color:red;
+}
