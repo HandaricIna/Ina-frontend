@@ -1,0 +1,40 @@
+label {
+    color:skyblue;
+}
+input[type="text"] {
+    border:2px solid lightgreen;
+}
+input[type="email"] {
+    background-color: blue;
+}
+input[type="submit"] {
+    background-color: green;
+}
+input[type="reset"] {
+    background-color: greenyellow;
+}
+fieldset {
+    background-color: salmon;
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    display: inline;
+    background-color: yellow;
+    vertical-align: middle;
+    height: 200px;
+    width: 500px;
+}
+.image {
+    position: relative;
+    bottom: -15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    object-position: bottom 20px;
+}
